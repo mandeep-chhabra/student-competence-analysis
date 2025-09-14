@@ -41,13 +41,21 @@ As lighter alternatives, **CodeT5** and **CodeBERT** can be used for quick code-
 
 ---
 
-## 📊 Model Comparison
+##  Model Comparison
 
 | Model     | Strengths                                    | Limitations                      | Best Use Case                  |
 |-----------|----------------------------------------------|-----------------------------------|--------------------------------|
 | StarCoder | Rich prompt generation, long context window | Heavy compute requirements        | Deep analysis + formative prompts |
 | CodeT5    | Lightweight, interpretable, efficient       | Less fluent in open-ended prompts | Quick code classification/analysis |
 | CodeBERT  | Strong embeddings, great for metrics        | Not generative (can’t produce prompts) | Evaluation & similarity scoring |
+
+---
+
+##  Workflow
+
+Below is the workflow of how the system works:
+
+![Workflow Diagram](workflow.png)
 
 ---
 
