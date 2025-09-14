@@ -1,0 +1,2 @@
+Code Snippet,Model Output,Useful Prompt (Y/N),Spoiler (Y/N),Depth Score (1-5),Comments
+"factorial function","Why does your base case start at 1? What about n=0?",Y,N,4,"Encourages edge-case thinking"
